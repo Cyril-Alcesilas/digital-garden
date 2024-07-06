@@ -1,11 +1,11 @@
 import * as React from "react";
+import Layout from "../components/Layout";
 
 const ArticlesPage = () => {
     return (
-        <main>
-            <title>Articles</title>
-        <h1>N'hésitez pas à consulter tous les articles de mon jardin !</h1>
-        </main>
+        <Layout pageTitle = "Articles">
+            <h1>N'hésitez pas à consulter tous les articles dans mon jardin !</h1>
+        </Layout>
  );
 };
 
